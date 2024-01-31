@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a=0,b=1
+ printf("enter the number\n");
+ scanf("%d",&n);
+ printf("fibonacci series\n");
+ for(i=1;i<=n;i++)
+ {
+  printf("%d",b);
+  c=a+b;
+  a=b;
+  b=c;
+  }
+  getch();
+  }
